@@ -31,5 +31,5 @@ func main() {
 
 	// Printf 格式化
 	fmt.Printf("Weight: %.2f lbs\n", 149.0*0.3783) // 保留两位小数
-	fmt.Printf("Age: %d years\n", 41*365/687)      // 整数格式化
+	fmt.Printf("Age: %d years\n", 41*365/687)      // 整数格式化                              // 调用自
 }
