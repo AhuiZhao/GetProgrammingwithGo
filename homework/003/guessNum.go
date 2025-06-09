@@ -16,6 +16,7 @@ func main() {
 	for {
 		fmt.Print("请输入1-100的整数:")
 		_, err := fmt.Scanln(&guessNum)
+		// 检查输入是否有效
 		if err != nil || guessNum < 1 || guessNum > 100 {
 			fmt.Println("⚠️ 输入无效,请确保输入1-100的整数")
 			continue
